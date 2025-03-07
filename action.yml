@@ -1,0 +1,13 @@
+name: "NGA publish"
+description: "addons publish to nga"
+author: "Dencer"
+inputs:
+  nga-cookie:
+    description: "nga cookie"
+    required: true
+runs:
+  using: "node20"
+  main: "index.js"
+branding:
+  color: "blue"
+  icon: "play"
